@@ -1,0 +1,49 @@
+.portfolio-container{
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.text-container{
+    margin-left:10px;
+    .label1 { 
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        color: #263146;
+      }
+      .under-text{
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        color: #98a2a9;
+        margin-top:2px;
+      }
+}
+
+
+.portfolio-img{
+    max-width:100%;
+}
+
+.portfolio-icon{
+    font-size: 26px;
+    float: left;
+    color:#cfcfcf;
+    width:32px;
+}
+
+.status-indicator{
+    font-size: 11px;
+    float: left;
+    margin-left: -4px;
+}
+
+.site-header{
+    margin-bottom:0;
+}

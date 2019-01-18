@@ -1,0 +1,54 @@
+
+.folder-item-container a{
+    display: flex;
+    color:#212529;
+    .icon{        
+        float: left;
+        img{
+            width:58px;
+        }    
+        
+        margin-right:10px;
+    }
+    .label-container {
+        float:left;
+        .label-text{
+            font-size:14px;
+            font-weight: 600;
+        }
+        .label-undertext{
+            margin-top:4px;
+            font-size:12px;
+            color: #97A0A7;
+        }
+    }
+
+}
+
+.document-item-container {
+    display: flex;
+    .thumbnail{
+        img{
+            width:50px;
+            margin-right:16px;
+        }
+        float:left;
+
+    }
+    .label-container{
+        float: left;
+        width:auto;
+        .label-text{
+            font-size:14px;
+            font-weight: 600;
+        }
+        .label-undertext{
+            margin-top:4px;
+            font-size:12px;
+            color: #97A0A7;
+        }
+
+    }
+
+
+}

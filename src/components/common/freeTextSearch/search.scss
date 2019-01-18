@@ -1,0 +1,131 @@
+.react-autosuggest__container {
+    position: relative;
+  }
+  
+  .react-autosuggest__input {
+    width: 240px;
+    height: 30px;
+    padding: 14px;
+    padding-left: 32px;    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    -webkit-appearance: none;
+  }
+  
+  .react-autosuggest__input--focused {
+    outline: none;
+  }
+  
+  .react-autosuggest__input::-ms-clear {
+    display: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 29px;
+    width: auto;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    max-height: 90vh;
+    overflow-y: scroll
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    padding: 8px 16px;
+    border-bottom: 1px dashed #eaeaea;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }
+
+  .search-container{
+    display: flex;
+    position: relative;
+
+    .search-icon{
+      position: absolute;
+      z-index: 100;
+      margin-left: 6px;
+      margin-top: 5px;
+    }
+    .loading-img{
+      float: left;
+      width:24px;
+      height:24px;
+      z-index: 100;
+      margin-top: 2px;
+      position: absolute;
+      right: 5px;
+    }
+
+  }
+
+
+  .header-search-mobile{
+    .react-autosuggest__container {
+      position: relative;      
+      width:100%;
+      margin: 10px 15px;
+    }
+    
+    .react-autosuggest__input {
+      width: 100%;
+      height: 32px;
+      padding: 14px;
+      padding-left: 32px;    
+      font-weight: 300;
+      font-size: 16px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      -webkit-appearance: none;
+    }
+    
+    
+    .react-autosuggest__suggestions-container--open {
+      display: block;
+      position: absolute;
+      top: 30px;
+      width: 100%;
+      z-index: 2;
+      max-height: 90vh;
+      overflow-y: scroll
+    }
+  
+    .search-container{
+      .search-icon{
+        margin-left: 24px;
+        margin-top: 15px;
+      }
+      .loading-img{
+        margin-top: 14px;
+      margin-right: 16px;
+      }
+  
+    }
+  }

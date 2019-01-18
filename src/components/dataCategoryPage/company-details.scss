@@ -1,0 +1,20 @@
+.company-container{
+    .accordion__item{
+        font-size: 14px;
+        .label{
+            float: left;
+            width: 50%;
+            font-weight: 500;
+        }
+        .text{
+            width:50%;
+            float: left; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-right:16px;
+        }
+    }
+ 
+    
+}

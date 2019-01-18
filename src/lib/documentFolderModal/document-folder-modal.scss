@@ -1,0 +1,155 @@
+
+.modal-content{
+    padding-left:24px;
+    padding-right:24px;
+    min-width: 50vw;
+    .modal-header{
+        padding-left:0;
+        padding-bottom:8px;
+        .close{
+            padding-right:0;
+        }
+    }
+    h2{
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        color: #263146;
+    }
+    .icon-folder{
+        background-image: url('images/icons8-folder_color.svg');
+        width:24px;
+        height:24px;
+        margin-right:8px;
+    }
+    .icon-file{
+        float:left;
+        background-image: url('images/icons8-page.svg');
+        width:24px;
+        height:24px;
+        margin-right:8px;
+    }
+    .document-row{
+        padding-top:8px;
+        padding-bottom:8px;
+        &:hover{
+            background-color: rgb(255, 249, 241);
+        }
+        .item-row{
+            width:100%;
+        }
+    }
+    a{
+        color:black;
+    }
+    .file-content-container{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .hover-thumbnail{
+        position: relative;
+        border:none;
+        display: inline-block;
+        padding:0;
+        margin:0;
+        .hover-layer{
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            top: -100px;
+            left: 50px;
+        }
+        &:hover .hover-layer{
+            visibility: visible
+        }
+    }
+    .content-row{
+        margin-top:16px;
+        .cell {
+            padding-left:0;
+        }
+    }
+    .warning-close{
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+    .status-icon-modal-header{
+        margin-top:14px;
+        margin-right:8px;
+        float:left;
+    }
+    .edit-icons{
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .RED{
+        color: red;
+    }
+    .YELLOW{
+        color: yellow;
+    }
+    .GREEN{
+        color: black;
+    }
+
+
+
+}
+
+.img-icon{
+    float: left;
+}
+.folder-label{
+    width:100%;
+    h4{        
+        width:auto;
+        margin-top:5px;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        display:flex;
+
+    }
+
+    @media (max-width: 992px) { 
+         h4 {
+            text-overflow: ellipsis;
+                overflow: hidden;
+                width: 350px;
+                white-space: nowrap;
+            }
+    }
+
+    @media (max-width: 575.98px) {
+        h4 {
+            width: 200px;
+        }
+    }
+    
+
+  
+
+
+}
+.modal-body{
+    padding:0;
+}
+h1{
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #263146;
+}
